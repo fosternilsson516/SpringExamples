@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Exam {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         ApplicationContext AC = new ClassPathXmlApplicationContext("beans.xml");
         Student foster = AC.getBean("foster", Student.class);
         foster.displayStudentInfo();

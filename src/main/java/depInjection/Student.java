@@ -9,7 +9,7 @@ public class Student {
         this.age = age;
     }
 
-    public void displayStudentInfo() {
+    public void displayStudentInfo()  {
 
         System.out.println("students name is = " + studentName
         + " and their age is = " + age);
